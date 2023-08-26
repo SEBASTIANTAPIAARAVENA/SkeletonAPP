@@ -1,0 +1,41 @@
+ion-title .custom-title {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    margin-bottom: 0.5rem; 
+  }
+  
+  ion-title .custom-subtitle {
+    font-size: 1.2rem; 
+    color: #ddd5d5; 
+  }
+ 
+ion-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+ion-content {
+  text-align: center;
+}
+
+
+ion-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+ion-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+ion-button {
+  margin-top: 10px; 
+}

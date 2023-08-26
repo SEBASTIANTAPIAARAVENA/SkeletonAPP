@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title [@titleAnimation]="titleAnimation">Bienvenido!</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <h2>Información Adicional</h2>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label>Nombre</ion-label>
+        <ion-input [(ngModel)]="nombre"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Apellido</ion-label>
+        <ion-input [(ngModel)]="apellido"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Nivel de Educación</ion-label>
+        <ion-input [(ngModel)]="nivelEducacion"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Fecha de Nacimiento</ion-label>
+        <ion-input [(ngModel)]="fechaNacimiento" type="date"></ion-input>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+  <ion-button expand="full" (click)="mostrarInformacion()">Mostrar</ion-button>
+  <ion-button expand="full" (click)="limpiarCampos()">Limpiar</ion-button>
+</ion-content>
+
